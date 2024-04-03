@@ -25,3 +25,8 @@ print(new_a)
 
 a = [-5, -3, 1, 2, 3]
 print(*a)
+
+
+date_info = {'year': "2020", 'month': "01", 'day': "01"}
+filename = "{year}-{month}-{day}.txt".format(**date_info)
+print(filename)
